@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f4f1e7;
+    color: #2e2a47;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #3b2f2a;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 22px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #612b31;
+    font-style: italic;
+}
+
+#img-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#image {
+    display: block;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+#img-caption {
+    font-size: 18px;
+    color: #2e2a47;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 28px;
+    color: #3b2f2a;
+    text-align: center;
+    margin: 40px 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.timeline {
+    background-color: #dcd7c9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.event {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 4px solid #3b2f2a;
+    font-size: 18px;
+}
+
+.event .date {
+    font-weight: bold;
+    font-size: 20px;
+    color: #3b2f2a;
+}
+
+blockquote {
+    font-size: 20px;
+    font-style: italic;
+    background-color: #98afba;
+    border-left: 5px solid #965a5f;
+    padding: 20px;
+    text-align: center;
+    color: #2e2a47;
+    margin-top: 40px;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: #8b7d6b;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    color: #612b31;
+    font-size: 22px;
+    transition: 0.3s;
+}
