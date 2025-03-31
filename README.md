@@ -11,7 +11,7 @@ This is a tribute page dedicated to the life and contributions of **Bertrand Rus
 - **External Link**: A link to Bertrand Russell's [Wikipedia page](https://en.wikipedia.org/wiki/Bertrand_Russell) for further reading.
 
 ## Files Included
-- **index.html**: The main HTML file containing the structure and content of the tribute page.
+- **tributepage.html**: The main HTML file containing the structure and content of the tribute page.
 - **styles.css**: The CSS file responsible for styling the page and enhancing its visual appeal.
 
 ## How to Use
